@@ -1,24 +1,14 @@
 # depslib dependency file v1.0
-1679742013 source:d:\mydocuments\bytewise\b_tasks\tasks\tasks\opengl\main.cpp
+1680015723 source:d:\mydocuments\bytewise\bytewise_tasks\opengl_learning\opengl_learning\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
 	<iostream>
 	<stdlib.h>
 
-1426331728 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glut.h
-	"freeglut_std.h"
-
-1426331728 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
+1526093414 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
 	<windows.h>
-	<EGL/egl.h>
-	<GLES/gl.h>
-	<GLES2/gl2.h>
-	<OpenGL/gl.h>
-	<OpenGL/glu.h>
-	<GL/gl.h>
-	<GL/glu.h>
-	<stdlib.h>
+	<stddef.h>
 
 1526093414 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\windows.h
 	<_mingw.h>
@@ -869,10 +859,41 @@
 1526093414 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\imm.h
 	<_mingw_unicode.h>
 
-1526093414 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
-	<windows.h>
-	<stddef.h>
-
 1526093414 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
+
+1426331728 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glut.h
+	"freeglut_std.h"
+
+1426331728 e:\openglcodeblock\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1680015791 source:d:\mydocuments\bytewise\bytewise_tasks\opengl_learning\opengl_learning\linear_animation.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<stdlib.h>
+
+1680433532 source:d:\mydocuments\bytewise\bytewise_tasks\opengl_learning\opengl_learning\transformations.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<stdlib.h>
+
+1680444847 source:d:\mydocuments\bytewise\bytewise_tasks\opengl_learning\opengl_learning\game.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<stdlib.h>
 

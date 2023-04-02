@@ -34,25 +34,26 @@ void display(){
     glClear(GL_COLOR_BUFFER_BIT);
     //GL_COLOR_BUFFER_BIT flag for frame buffer
     glLoadIdentity(); //resets all the transformations in current matrix - reset any rotation or transformation etc
+    glTranslatef(1.0,1.0,0.0);
+    glRotatef(45.0,0.0,0.0,2.0);
+    glScalef(0.4,0.4,0.0);
 
-
-    glPointSize(10.0);
     //DRAW
 
     //glBegin(GL_POINTS);
     //glBegin(GL_TRIANGLES);
     glBegin(GL_POLYGON);
     //VERTICES
-    //glVertex2f(5,5); //POINT
-    //glVertex2f(-5,-5); //POINT
-   // glVertex2f(0.0,5.0); //TRIANGLE
-    //glVertex2f(4.0,-3.0); //TRIANGLE
-   // glVertex2f(-4.0,-3.0); //TRIANGLE
+    //glVertex2f(5,5);
+    //glVertex2f(-5,-5);
+   // glVertex2f(0.0,5.0);
+    //glVertex2f(4.0,-3.0);
+   // glVertex2f(-4.0,-3.0);
 
-   glVertex2f(3.0,3.0); //POINT
-   glVertex2f(-2.0,3.0); //TRIANGLE
-   glVertex2f(-2.0,-2.0); //TRIANGLE
-   glVertex2f(3.0,-2.0); //TRIANGLE
+   glVertex2f(3.0,3.0);
+   glVertex2f(-2.0,3.0);
+   glVertex2f(-2.0,-2.0);
+   glVertex2f(3.0,-2.0);
     //END
     glEnd();
 

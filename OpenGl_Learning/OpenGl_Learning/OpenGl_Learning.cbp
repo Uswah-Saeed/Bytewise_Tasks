@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="OpenGl" />
+		<Option title="OpenGl_Learning" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/OpenGl" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/OpenGl_Learning" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="E:/openglcodeblock/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/OpenGl" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/OpenGl_Learning" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="E:/openglcodeblock/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
 				<Option object_output="obj/Release/" />
 				<Option type="0" />
@@ -42,9 +42,7 @@
 			<Add library="gdi32" />
 			<Add directory="E:/openglcodeblock/CodeBlocks/MinGW/x86_64-w64-mingw32/lib" />
 		</Linker>
-		<Unit filename="main.cpp" />
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
+		<Unit filename="game.cpp" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
